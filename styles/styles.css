@@ -17,12 +17,17 @@
 
 
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
   font-family: "PT Sans", "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
   background-color: #FFFFFF;
   color: #000000;
+  outline: 5px solid green;
+  outline-offset: -5px;
 }
 
 
@@ -71,7 +76,6 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-
 }
 
 .advantages-list {
@@ -232,3 +236,33 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+
+
+.page-container {
+  margin: 0% auto;
+  width: 960px;
+}
+
+html {
+  height: 100%;
+}
+
+
+/* Для сеток
+.main-container {
+  flex-grow: 1;
+}
+
+.navigation {
+  display: flex;
+  width: 390px;
+  margin: 0% auto;
+  padding: 0%;
+}
+
+.navigation-user {
+  width: 264px;
+  margin-left: auto;
+}
+
+*/
