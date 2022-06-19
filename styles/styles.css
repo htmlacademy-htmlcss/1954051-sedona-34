@@ -53,6 +53,10 @@ body {
   color: #FFFFFF;
 }
 
+.navigation-logo {
+  width: 139px;
+  margin-left: 70px;
+}
 
 
 .navigation-link {
@@ -277,6 +281,7 @@ html {
 }
 
 .navigation-user {
+  display: flex;
   max-width: 264px;
   margin-left: auto;
 }
@@ -300,6 +305,7 @@ html {
   width: 115px;
   margin-left: auto;
 }
+
 
 .hotels-container {
   display: flex;
