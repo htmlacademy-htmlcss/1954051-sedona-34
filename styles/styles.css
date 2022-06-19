@@ -122,6 +122,7 @@ body {
 }
 
 .advantages-item-illustrated {
+  display: flex;
   background-color: #82B3D3;
   color: #FFFFFF;
 }
