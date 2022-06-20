@@ -287,15 +287,17 @@ html {
   margin-left: auto;
 }
 
-.page-footer-container {
-  display: flex;
-  width: 1200px;
-  margin: 0% auto;
-}
 
 .social {
   width: 116px;
   margin-right: 247px;
+}
+
+
+.page-footer {
+  display: flex;
+  width: 1200px;
+  margin: 0% auto;
 }
 
 .footer-phone-number {
