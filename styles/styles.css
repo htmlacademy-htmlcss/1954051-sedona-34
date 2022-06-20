@@ -20,6 +20,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 400;
@@ -52,6 +53,10 @@ body {
   color: #FFFFFF;
 }
 
+.navigation-logo {
+  width: 139px;
+  margin-left: 70px;
+}
 
 
 .navigation-link {
@@ -59,6 +64,11 @@ body {
   font-weight: 700;
   text-decoration: none;
   color: inherit;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
 }
 
 .hero {
@@ -69,6 +79,8 @@ body {
   background-repeat: no-repeat;
   background-color: #FFFFFF;
   color: #000000;
+  display: block;
+  margin: 0% auto;
 }
 
 .main-hero-title {
@@ -76,10 +88,17 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-list {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .advantages-title {
@@ -98,8 +117,12 @@ body {
   line-height: 21px;
 }
 
+.advantages-item {
+  width: 400px;
+}
 
 .advantages-item-illustrated {
+  display: flex;
   background-color: #82B3D3;
   color: #FFFFFF;
 }
@@ -240,15 +263,13 @@ body {
 
 .page-container {
   margin: 0% auto;
-  width: 960px;
+  width: 1200px;
 }
 
 html {
   height: 100%;
 }
 
-
-/* Для сеток
 .main-container {
   flex-grow: 1;
 }
@@ -256,13 +277,44 @@ html {
 .navigation {
   display: flex;
   width: 390px;
-  margin: 0% auto;
+  margin-right: auto;
   padding: 0%;
 }
 
 .navigation-user {
-  width: 264px;
+  display: flex;
+  max-width: 264px;
   margin-left: auto;
 }
 
-*/
+
+.social {
+  width: 116px;
+  margin-right: 247px;
+}
+
+
+.page-footer {
+  display: flex;
+  width: 1200px;
+  margin: 0% auto;
+}
+
+.footer-phone-number {
+  width: 720px;
+}
+
+.footer-contacts-logo {
+  width: 115px;
+  margin-left: auto;
+}
+
+
+.hotels-container {
+  display: flex;
+  width: 1200px;
+}
+
+.hotel-card {
+  width: 340px;
+}
