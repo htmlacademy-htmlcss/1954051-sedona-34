@@ -41,16 +41,19 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
+  border-radius: 4px;
 }
 
 .button-additional {
   background-color: #82B3D3;
   color: #FFFFFF;
+  border-radius: 4px;
 }
 
 .button-selected {
   background-color: #7DB54F;
   color: #FFFFFF;
+  border-radius: 4px;
 }
 
 
@@ -86,12 +89,20 @@ body {
 
 .hero {
   width: 1200px;
-  height: 767px;
+  height: 485px;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #FFFFFF;
   color: #000000;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-hero-description {
+  width: 1200px;
+  height: 282px;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -258,10 +269,21 @@ body {
 
 
 
+.hotel-filter-container {
+  display:flex;
+  flex-direction: row;
+}
+
+
+
 .hotel-filter-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
+}
+
+.hotel-filter-item {
+  list-style: none;
 }
 
 .control-input {
