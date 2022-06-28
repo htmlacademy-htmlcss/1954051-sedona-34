@@ -353,7 +353,9 @@ body {
 }
 
 .pagination-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 55px;
   height: 55px;
   color: #ffffff;
