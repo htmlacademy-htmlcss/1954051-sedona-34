@@ -164,7 +164,7 @@ body {
 
 
 .advantages-item-city {
-  width: 1200px;
+  width: 100%;
   display: flex;
   background-color: #82B3D3;
   color: #FFFFFF;
@@ -207,7 +207,7 @@ body {
 }
 
 .advantages-item-bridge {
-  width: 1200px;
+  width: 100%;
   display: flex;
   background-color: #82B3D3;
   color: #FFFFFF;
@@ -280,7 +280,8 @@ body {
 
 
 
-.hotel-filter-container {
+
+.hotel-filter{
   display:flex;
   flex-direction: row;
 }
