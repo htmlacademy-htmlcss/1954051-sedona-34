@@ -152,17 +152,6 @@ body {
 }
 
 
-.advantages-item-background-1 {
-  background-color: #83B3D31F;
-  color: #333333;
-}
-
-.advantages-item-background-2 {
-  background-color: #83B3D333;
-  color: #333333;
-}
-
-
 .advantages-item-city {
   width: 100%;
   display: flex;
@@ -183,9 +172,17 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 41px;
+  background-color: #83B3D31F;
+  color: #333333;
 }
 
 .advantages-item-food {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+  padding: 80px 85px 81px;
+  box-sizing: border-box;
   background-image: url("/images/advantage-food.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -204,6 +201,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 41px;
+  background-color: #83B3D31F;
+  color: #333333;
 }
 
 .advantages-item-bridge {
@@ -213,11 +212,38 @@ body {
   color: #FFFFFF;
 }
 
-.advantages-item-size {}
+.advantages-item-size {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+  padding: 80px 85px 81px;
+  box-sizing: border-box;
+  background-color: #83B3D31F;
+  color: #333333;
+}
 
-.advantages-item-road {}
+.advantages-item-road {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+  padding: 80px 85px 81px;
+  box-sizing: border-box;
+  background-color: #83B3D333;
+  color: #333333;
+}
 
-.advantages-item-tourists {}
+.advantages-item-tourists {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+  padding: 80px 85px 81px;
+  box-sizing: border-box;
+  background-color: #83B3D31F;
+  color: #333333;
+}
 
 
 .hotel-search-title {
