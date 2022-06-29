@@ -107,6 +107,7 @@ body {
   margin: 0 auto;
   text-align: center;
   padding-top: 63px;
+  padding-bottom: 90px;
 }
 
 .main-hero-title {
@@ -252,13 +253,20 @@ body {
 }
 
 .newsletter {
+  display: flex;
   width: 1200px;
+  align-items: center;
   height: 411px;
   color: #FFFFFF;
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   text-align: center;
+}
+
+.newsletter-container {
+  width: 800px;
+  height: 223px;
 }
 
 
@@ -341,9 +349,15 @@ body {
   height: 48px;
 }
 
+
 .catalog-hotels {
   display: flex;
   flex-direction: row;
+}
+
+.hotel-card {
+width: 340px;
+height: 438px;
 }
 
 .hotel-card-name {
@@ -370,6 +384,11 @@ body {
 .hotel-card-rating {
   font-size: 16px;
   line-height: 20px;
+}
+
+
+.hotel-card-image {
+margin-bottom: 16px;
 }
 
 
