@@ -47,6 +47,7 @@ body {
 
 
 
+
 .button-additional {
   background-color: #82B3D3;
   color: #FFFFFF;
@@ -59,7 +60,7 @@ body {
   border-radius: 4px;
 }
 
-
+button:disabled {}
 
 
 .page-header {
@@ -114,7 +115,7 @@ body {
 .hero {
   width: 1200px;
   height: 485px;
-  background-image: url("../images/index-background.jpg");
+  background-image:url("../images/index-background.jpg"), url("../images/welcome-divider.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #FFFFFF;
@@ -457,6 +458,25 @@ filter-wrap {
   line-height: 20px;
 }
 
+.hotel-stars {
+background-image: url(/images/star.svg);
+background-repeat: space;
+height: 17px;
+}
+
+.hotel-4-stars {
+  width: 72px;
+  height: 17px;
+
+}
+
+.hotel-3-stars {
+  width: 55px;
+}
+
+.hotel-2-stars {
+  width: 35px;
+}
 
 .hotel-card-image {
   margin-bottom: 16px;
@@ -577,4 +597,10 @@ html {
   background-image: url(../images/social-vk.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+
+.link-favorites {
+  background-image: url(/images/menu-favorite.svg)
+
 }
