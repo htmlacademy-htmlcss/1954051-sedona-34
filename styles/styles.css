@@ -59,7 +59,7 @@ body {
   border-radius: 4px;
 }
 
-
+button:disabled {}
 
 
 .page-header {
@@ -457,6 +457,25 @@ filter-wrap {
   line-height: 20px;
 }
 
+.hotel-stars {
+background-image: url(/images/star.svg);
+background-repeat: space;
+height: 17px;
+}
+
+.hotel-4-stars {
+  width: 72px;
+  height: 17px;
+
+}
+
+.hotel-3-stars {
+  width: 55px;
+}
+
+.hotel-2-stars {
+  width: 35px;
+}
 
 .hotel-card-image {
   margin-bottom: 16px;
